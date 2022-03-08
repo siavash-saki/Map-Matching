@@ -35,13 +35,13 @@ services:
       - force_rebuild_elevation = False
       - force_rebuild = False
 ```
-This configuration prioritize the `pbf` file located in `custom_files`. 
+This configuration prioritizes the `pbf` file located in `custom_files`. 
 If this is empty, then the tiles are retrieved from the specified link from [GEOFABRIK](https://www.geofabrik.de/). 
 Next, Valhalla can be built by:
 ```commandline
 docker-compose up --build
 ```
-When the installation is finished, Valhalla is running on `http://localhost:8002/`.
+When the installation is finished, Valhalla runs on `http://localhost:8002/`.
 
 
 
