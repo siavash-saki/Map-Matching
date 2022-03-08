@@ -6,14 +6,14 @@ Examples demonstrating how to use Valhalla Meili Map-Matching service
 
 There are two ways to build a Valhalla routing engine. 
 The first one is building from the source. 
-It is explained in [Valhalla GitHub page](https://github.com/valhalla/valhalla). 
+It is explained on the [Valhalla GitHub page](https://github.com/valhalla/valhalla). 
 The second way is to use the docker container. 
-Valhalla original docker containers can be found [here](https://hub.docker.com/r/valhalla/valhalla/tags). 
+Valhalla's original docker containers can be found [here](https://hub.docker.com/r/valhalla/valhalla/tags). 
 But it is recommended to use the [GIO OPS docker container](https://github.com/gis-ops/docker-valhalla). 
-It is more straight-forward. 
+It is more straightforward. 
 In order to build a Valhalla engine using docker, you need the latest `docker` and `docker-compose` running on an `Ubuntu 20.04`. 
-First you should configure a `docker-compose.yml` file. 
-An example for building Valhalla using Germany tiles from OpenStreetMap can look like this:
+First, you should configure a `docker-compose.yml` file. 
+An example for building Valhalla using Germany's tiles from OpenStreetMap can look like this:
 ```YML
 services:
   valhalla:
